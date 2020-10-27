@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="./app.css" />
+  <body>
+    <div style="position:relative;display: flex;justify-content: center;">
+      <div style="display: flex;background-color: rgb(51, 58, 70);overflow: hidden;">
+        <div class="hello" style="background-color: rgb(51, 58, 70);display:flex;justify-content: center;align-items: center;">
+          <div>
+            <img src="./prvaStrana/dvojka-bela.svg" class="broj1" style="z-index: 4;" ></img>
+            <img src="./prvaStrana/nula-bela.svg" class="broj2" style="z-index: 4;" ></img>
+          </div>
+        </div>
+        <div class="hello1" style="background-color: white;display:flex;justify-content: center;align-items: center;">
+          <img src="./prvaStrana/dvojka-siva.svg" class="broj2" style="z-index: 4;" ></img>
+          <img src="./prvaStrana/nula-siva.svg" class="broj1" style="z-index: 4;" ></img>
+        </div>
+      </div>
+    </div>
+      <div >
+        <img
+        src="./prvaStrana/house.svg"
+        class="hello3"
+        style="
+          width: 70vw;
+          height: 55vh;
+          position: absolute;
+          bottom: 0;
+          opacity: 0.5;
+          left: 50%;
+          transform: translateX(-50%);
+        "
+        ></img>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="app.js"></script>
+</html>

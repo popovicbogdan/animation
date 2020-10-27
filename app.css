@@ -1,0 +1,63 @@
+.hello,
+.hello2,
+.hello1 {
+  width: 100vw;
+  height: 100vh;
+}
+
+.hello {
+  z-index: 1;
+}
+.hello3 {
+  z-index: 3;
+}
+.hello1 {
+  z-index: 2;
+}
+.paran {
+  flex-basis: 40%;
+  max-height: 50%;
+  opacity: 0.5;
+}
+.neparan {
+  flex-basis: 60%;
+  max-height: 50%;
+  opacity: 0.5;
+}
+.paran:hover,
+.neparan:hover {
+  opacity: 1 !important;
+  transition: opacity 0.12s ease-out;
+}
+
+.slika1 {
+  background-image: url("tiomothy-swope-zwe--GYIZtc-unsplash.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 110%;
+  height: 110%;
+}
+
+.slika2 {
+  background-image: url("jon-tyson-XzUMBNmQro0-unsplash.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 110%;
+  height: 110%;
+}
+
+.slika3 {
+  background-image: url("patrick-tomasso-gMes5dNykus-unsplash.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 110%;
+  height: 110%;
+}
+
+.slika4 {
+  background-image: url("sorasak-KxCJXXGsv9I-unsplash.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 110%;
+  height: 110%;
+}
